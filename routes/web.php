@@ -14,3 +14,19 @@
 Route::get('/', function () {
     return view('pages.dashboard');
 });
+Route::get('/courses', 'PostController@index');
+//Route::get('/edit', 'PostController@edit');
+Route::get('/create', 'PostController@create');
+Route::post('/create', 'PostController@store');
+//Route::post('/edit', 'PostController@update');
+
+
+//->name('courses.create');
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');

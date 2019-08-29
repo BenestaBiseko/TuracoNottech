@@ -28,6 +28,12 @@
               <i class="nav-icon fas fa-tachometer-alt"></i>
               <p>Dashboard</p>
             </a>
+          </li>&nbsp
+          <li class="nav-item has-treeview menu-open">
+            <a href="/courses" class="nav-link active">
+              <i class="nav-icon fas fa-tachometer-alt"></i>
+              <p>Courses</p>
+            </a>
           </li>
         </ul>
       </nav>
